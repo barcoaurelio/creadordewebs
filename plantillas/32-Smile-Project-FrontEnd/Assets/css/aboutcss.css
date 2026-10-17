@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar {
+    color: #020202;
+    text-decoration: none;
+    /*padding: 1em;
+    margin: 0 0.5em;*/
+    /* padding: 16px 20px; */
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    text-align: center;
+    /* #828C8D dark gray */
+    /* #AFC8CC light gray  */
+    /* #202A2C ulrta dark gray */
+}
+
+.nav-bar:hover {
+    background-color: #13BD9E;
+    font-weight: bolder;
+}
+
+body {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-image: linear-gradient(to bottom,  #00badb83, #fdfdfd6c); */
+    height: 100vh;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    background-attachment: fixed;
+}
+
+#ourmission {
+    align-content: center;
+}
+
+.container02 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px 50px;
+    padding: 100px 0px;
+}
+
+.container02 .card {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 350px;
+    height: 400px;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
+    transition: 1s;
+}
+
+.container02 .card:hover {
+    height: 350px;
+}
+
+.container02 .card .imgbx {
+    position: absolute;
+    top: 20px;
+    width: 300px;
+    height: 220px;
+    background-color: #020202;
+    overflow: hidden;
+    border-radius: 12px;
+    transition: 1s;
+    left: 25px;
+}
+
+.container02 .card:hover .imgbx {
+    top: -100px;
+    scale: 0.75;
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
+}
+
+.container02 .card .imgbx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container02 .card .content {
+    position: absolute;
+    top: 250px;
+    width: 100%;
+    padding: 0 30px;
+    text-align: center;
+    height: 40px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.container02 .card:hover .content {
+    top: 100px;
+    height: 330px;
+}
+
+.footer a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #838383;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer h5 {
+    margin-bottom: 15px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.footer ul {
+    padding-left: 0;
+}
+
+.footer ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.footer p {
+    color: #000000;
+    margin-bottom: 5px;
+}

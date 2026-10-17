@@ -1,0 +1,10 @@
+# Node (plantillas con npm install)
+node_modules/
+
+# Caches auto-generados
+.atl/
+
+# Basura de Windows
+New Text Document.txt
+Thumbs.db
+Desktop.ini

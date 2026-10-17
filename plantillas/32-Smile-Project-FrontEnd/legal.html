@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>32 Smiles</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="shortcut icon" href="IMAGES/Favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="navbar shadow-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="IMAGES/logo.png" alt="dental-logo" style="height: 50px;"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"> <img src="IMAGES/logo.png" alt="dental-logo" style="height: 50px;"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="d-flex justify-content-evenly">
+        <div class="offcanvas-body">
+          <ul class="navbar-nav flex-grow-1">
+            <li class="nav-item">
+              <a class="nav-link active nav-bar" aria-current="page" href="32smileshomepage.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active nav-bar" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active nav-bar" href="Blog.html">Blog</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active nav-bar" href="Professional-education.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Professional Education
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item nav-bar" href="Professional-education.html">Courses</a></li>
+                <li><a class="dropdown-item nav-bar" href="Professional-education.html">Help Documents</a></li>
+                <li><a class="dropdown-item nav-bar" href="Professional-education.html">Faculty Resources</a></li>
+                <li><a class="dropdown-item nav-bar" href="Professional-education.html">Student Resources</a></li>
+                <li><a class="dropdown-item nav-bar" href="Professional-education.html">Case Studies</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active nav-bar" href="Patient-education.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Patient Education
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item nav-bar" href="Patient-education.html">General Information</a></li>
+                <li><a class="dropdown-item nav-bar" href="Patient-education.html">Common Conditions</a></li>
+                <li><a class="dropdown-item nav-bar" href="Patient-education.html">Treatment Options</a></li>
+                <li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active  nav-bar"  href="Research.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Research
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item  nav-bar" href="Research.html">Latest Research</a></li>
+                <li><a class="dropdown-item  nav-bar" href="Research.html">Documents</a></li>
+                <li><a class="dropdown-item  nav-bar" href="Research.html">Media Library (Videos)</a></li>
+                <li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active  nav-bar" href="products.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Products
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item nav-bar" href="products.html">Toothpastes</a></li>
+                <li><a class="dropdown-item nav-bar" href="products.html">Brushes</a></li>
+                <li><a class="dropdown-item nav-bar" href="products.html">Kids' Products</a></li>
+                <li><a class="dropdown-item nav-bar" href="products.html">Electrical Accessories</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active nav-bar" href="services.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item nav-bar" href="services.html">Our Services</a></li>
+                <li><a class="dropdown-item nav-bar" href="review.html">Reviews From Patient</a></li>
+                <li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active nav-bar" href="Contactus.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Contact Us
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item nav-bar" href="Contactus.html">Contact For Appointment</a></li>
+                <li><a class="dropdown-item nav-bar" href="Contactus.html">Contact For Courses</a></li>
+                <li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active nav-bar" href="services.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Appointment
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item nav-bar" href="services.html">Online Appointment</a></li>
+                <li><a class="dropdown-item nav-bar" href="services.html">Onsite Appointment</a></li>
+                <li>
+              </ul>
+              </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar-end -->
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-sm-12">
+                <h1 class="display-1">Terms and Conditions of 32 Smiles Dental College and Clinic</h1>
+                <p class="fs-4" style="text-align: justify;">Welcome to the website of 32 Smiles Dental College and Clinic. By accessing or using our website, you agree to be bound by the following terms and conditions. Please read these terms carefully before using our services.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h1>1. Definitions</h1>
+                <ul style="list-style-type: square;">
+                    <li><p><span class="fw-bold"> "We," "Us," "Our,"</span> and <span class="fw-bold"> "32 Smiles"</span> refer to 32 Smiles Dental College and Clinic.</p></li>
+                    <li><p><span class="fw-bold">"You" and "Your"</span> refer to the user of our website and services.</p></li>
+                    <li><p><span class="fw-bold">"Website"</span> refers <a href="32smileshomepage.html" type="website" style="color: #078f76; text-decoration: none; font-weight: bold;">32Smiles.clinic.edu.com</a> and all associated subdomains and pages.</p></li>
+                    <li><p><span class="fw-bold">"Services"</span> refers to the dental, educational, and related services provided by 32 Smiles Dental College and Clinic.</p></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h1>2. Acceptance of Terms</h1>
+                <p>By accessing or using our website, you agree to comply with and be bound by these terms and conditions, along with our Privacy Policy, which is incorporated herein by reference. If you do not agree to these terms, you must not use our website or services.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h1>3. Use of the Website</h1>
+                <h3>3.1 Eligibility</h3>
+                <p>You must be at least 18 years old to use our website. If you are under 18, you may use our website only with the involvement of a parent or guardian.</p>
+                <h3>3.2 Permitted Use</h3>
+                <p>You agree to use our website for lawful purposes only. You must not:</p>
+                <ul style="list-style-type: square;">
+                  <li><p>Use our website in any way that breaches any applicable local, national, or international law or regulation.</p></li>
+                  <li><p>Use our website in any way that is unlawful or fraudulent, or has any unlawful or fraudulent purpose or effect.</p></li>
+                  <li><p>Use our website to harm or attempt to harm minors in any way.</p></li>
+                  <li><p>Transmit, or procure the sending of, any unsolicited or unauthorized advertising or promotional material or any other form of similar solicitation
+                   (spam).</p></li>
+                  <li><p>Knowingly introduce viruses, trojans, worms, logic bombs, or other material that is malicious or technologically harmful.</p></li>
+                </ul style="list-style-type: square;">
+                <h3>3.3 Account Registration</h3>
+                <p>To access certain services or features, you may be required to register an account. You agree to:</p>
+                <ul>
+                  <li>
+                    <p>Provide accurate, current, and complete information during the registration process.</p>
+                  </li>
+                  <li>
+                    <p>Maintain the security of your password and accept all risks of unauthorized access to your account.</p>
+                  </li>
+                  <li>
+                    <p>Notify us immediately if you suspect any unauthorized use of your account or any other security breach.</p>
+                  </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h1>4. Intellectual Property</h1>
+                <h3>4.1 Ownership</h3>
+                <p>All content on our website, including text, graphics, logos, images, videos, software, and other materials, is the property of 32 Smiles or its licensors and is protected by copyright, trademark, and other intellectual property laws.</p>
+                <h3>4.2 Limited License</h3>
+                <p>We grant you a limited, non-exclusive, non-transferable, and revocable license to access and use our website for personal, non-commercial use only. You must not:</p>
+                <ul style="list-style-type: square;">
+                  <li>
+                    <p>Reproduce, distribute, modify, create derivative works of, publicly display, publicly perform, republish, download, store, or transmit any of the material on our website, except as automatically cached by your web browser for viewing purposes.</p>
+                  </li>
+                  <li>
+                    <p>Remove or alter any copyright, trademark, or other proprietary rights notices from copies of materials from this site.</p>
+                  </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h1>5. Medical Disclaimer</h1>
+                <p>The information provided on our website is for general informational purposes only and is not intended as medical advice. Always seek the advice of your dentist or other qualified healthcare provider with any questions you may have regarding a medical condition or treatment.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h1>6. Educational Services</h1>
+                <h3>6.1 Enrollment</h3>
+                <p>Enrollment in our dental college is subject to acceptance by our admissions committee. We reserve the right to refuse enrollment to any applicant.</p>
+                <h3>6.2 Academic Policies</h3>
+                <p>Students enrolled in our dental college must comply with all academic policies, codes of conduct, and other regulations established by 32 Smiles. Violation of these policies may result in disciplinary action, including suspension or expulsion.</p>
+                <h3>6.3 Certification and Degrees</h3>
+                <p>Completion of our educational programs does not guarantee certification or licensure. Students are responsible for meeting all state or national requirements for professional licensure.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h1>7. Appointments and Cancellations</h1>
+                <h3>7.1 Scheduling</h3>
+                <p>Appointments for dental services can be scheduled through our website, by phone, or in person. We will do our best to accommodate your preferred appointment time.</p>
+                <h3>7.2 Cancellations</h3>
+                <p>If you need to cancel or reschedule an appointment, please notify us at least 24 hours in advance. Failure to provide sufficient notice may result in a cancellation fee.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h1>8. Payment Terms</h1>
+                <h3>8.1 Fees</h3>
+                <p>All fees for dental services and educational programs will be clearly communicated to you prior to the provision of services. Fees are subject to change without notice.</p>
+                <h3>8.2 Payment Methods</h3>
+                <p>We accept various payment methods, including credit cards, debit cards, and insurance. You are responsible for providing accurate payment information and ensuring that your payment method is valid and has sufficient funds.</p>
+                <h3>8.3 Late Payments</h3>
+                <p>Late payments may incur additional charges. If your account is overdue, we may suspend or terminate your access to our services until the outstanding balance is paid in full.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h1>9. Limitation of Liability</h1>
+                <h3>9.1 No Warranties</h3>
+                <p>Our website and services are provided "as is" and "as available" without any warranties of any kind, either express or implied. We do not warrant that our website or services will be uninterrupted, error-free, or free of viruses or other harmful components.</p>
+                <h3>9.2 Limitation of Liability</h3>
+                <p>To the fullest extent permitted by law, 32 Smiles and its affiliates, officers, directors, employees, agents, and licensors will not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill, or other intangible losses, resulting from:</p>
+                <ul style="list-style-type: square;">
+                  <li>
+                    <p>Your use of or inability to use our website or services.</p>
+                  </li>
+                  <li>
+                    <p>Any unauthorized access to or use of our servers and/or any personal information stored therein.</p>
+                  </li>
+                  <li>
+                    <p>Any interruption or cessation of transmission to or from our website.</p>
+                  </li>
+                  <li>
+                    <p>Any bugs, viruses, trojans, or the like that may be transmitted to or through our website by any third party.</p>
+                  </li>
+                  <li>
+                    <p>Any errors or omissions in any content or for any loss or damage incurred as a result of the use of any content posted, emailed, transmitted, or otherwise made available through our website.</p>
+                  </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h1>10. Indemnification</h1>
+                <p>You agree to defend, indemnify, and hold harmless 32 Smiles and its affiliates, officers, directors, employees, agents, and licensors from and against any and all claims, damages, obligations, losses, liabilities, costs, or debt, and expenses (including but not limited to attorney's fees) arising from:</p>
+                <ul style="list-style-type: square;">
+                  <li>
+                    <p>Your use of and access to our website and services.</p>
+                  </li>
+                  <li>
+                    <p>Your violation of any term of these terms and conditions.</p>
+                  </li>
+                  <li>
+                    <p>Your violation of any third-party right, including without limitation any copyright, property, or privacy right.</p>
+                  </li>
+                  <li>
+                    <p>Any claim that your use of our website or services caused damage to a third party.</p>
+                  </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h1>11. Termination</h1>
+                <p>We may terminate or suspend your access to our website and services, without prior notice or liability, for any reason whatsoever, including without limitation if you breach these terms and conditions. Upon termination, your right to use our website and services will immediately cease.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h1>12. Governing Law</h1>
+                <p>These terms and conditions are governed by and construed in accordance with the laws of International Organization, without regard to its conflict of law principles. You agree to submit to the exclusive jurisdiction of the courts located in Karachi for the resolution of any disputes arising out of or relating to these terms and conditions or your use of our website or services.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h1>13. Changes to These Terms and Conditions</h1>
+                <p>We reserve the right to modify or replace these terms and conditions at any time. We will notify you of any changes by posting the new terms on our website. You are advised to review these terms periodically for any changes. Your continued use of our website after any such changes constitutes your acceptance of the new terms and conditions.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-sm-12">
+                <h1>14. Contact Us</h1>
+                <p>If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us at:</p>
+                <h3>32 Smiles Dental College and Clinic</h3>
+                <ul style="list-style: none;">
+                    <li><h5><a href="none" type="email" style="color: black; text-decoration: none;">32smilesdentalclini-college@gmail.com</a></h5></li>
+                    <li><h5><a href="none" type="number" style="color: black; text-decoration: none;">92-345-6789101</a></h5></li>
+                    <li><h5><a href="32smileshomepage.html" type="website" style="color: black; text-decoration: none;">32Smiles.clinic.edu.com</a></h5></li>
+                </ul>
+            </div>
+        </div>
+      </div>
+
+    
+
+<!-- Footer -->
+<section style="background-image: linear-gradient(to bottom, white, #0fdfb8 ,#078f76);">
+  <footer class="footer mt-5 py-5">
+    <div class="container">
+        <div class="row">
+            <!-- Home -->
+            <div class="col-md-3 col-sm-6">
+              <h5>About Us</h5>
+              <ul class="list-unstyled">
+                <li><a href="about.html">Mission and vision statements</a></li>
+                <li><a href="about.html">Our Team</a></li>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <h5>Services</h5>
+              <ul class="list-unstyled">
+                  <li><a href="services.html">Routine check-ups</a></li>
+                  <li><a href="services.html">Urgent dental treatments</a></li>
+              </ul>
+            </div>
+
+            <!-- About US -->
+            <div class="col-md-3 col-sm-6">
+              <h5>Admissions</h5>
+              <ul class="list-unstyled">
+                  <li><a href="Professional-education.html">For Short Course</a></li>
+                  <li><a href="Professional-education.html">For DDS Or DMD</a></li>
+              </ul>
+            </div>
+
+            <!-- Blog -->
+            <div class="col-md-3 col-sm-6">
+              <h5>Contact Us</h5>
+              <ul class="list-unstyled">
+                  <li><a href="32smileshomepage.html">32Smiles.clinic.edu.com</a></li>
+                  <li>
+                    <a href="none"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" class="whatsapp" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                    <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+                  </svg></a>
+                  <a href="none" class="ms-1"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-youtube youtube" viewBox="0 0 16 16">
+                    <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+                  </svg></a>
+                  <a href="none" class="ms-1"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-twitter-x twitter" viewBox="0 0 16 16">
+                    <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+                  </svg></a>
+                  <a href="none" class="ms-1"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-instagram instagram" viewBox="0 0 16 16">
+                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                  </svg></a>
+                  <a href="none" class="ms-1"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-facebook facebook" viewBox="0 0 16 16">
+                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                  </svg></a>
+                  <a href="none" class="ms-1"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-telegram telegram" viewBox="0 0 16 16">
+                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.287 5.906q-1.168.486-4.666 2.01-.567.225-.595.442c-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294q.39.01.868-.32 3.269-2.206 3.374-2.23c.05-.012.12-.026.166.016s.042.12.037.141c-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8 8 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629q.14.092.27.187c.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.4 1.4 0 0 0-.013-.315.34.34 0 0 0-.114-.217.53.53 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09"/>
+                  </svg></a>
+                </li>
+              </ul>
+            </div>
+        </div>
+    
+
+        <div class="row mt-4">
+            <div class="col text-center">
+                <p>More Ways To Contact With Us: Find An 32 Smiles Or Other Dental Care Near You. Or Call +92-345-6789101.</p>
+                <p>International Inc.</p>
+                <p>Copyright &copy; 2024 | 32 Smiles Dental Clinic & College | All Rights Reserved. <a href="privacy.html" style="color: blue;">Privacy Policy</a><a href="legal.html" style="color: black;"> Legal </a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+</section>
+      
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      </body>
+      </html>

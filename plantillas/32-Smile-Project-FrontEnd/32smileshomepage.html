@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>32 Smiles</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="shortcut icon" href="IMAGES/Favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar shadow-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="IMAGES/logo.png" alt="dental-logo" style="height: 50px;"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel"> <img src="IMAGES/logo.png" alt="dental-logo" style="height: 50px;"></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="d-flex justify-content-evenly">
+            <div class="offcanvas-body">
+              <ul class="navbar-nav flex-grow-1">
+                <li class="nav-item">
+                  <a class="nav-link active nav-bar" aria-current="page" href="32smileshomepage.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active nav-bar" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active nav-bar" href="Blog.html">Blog</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle active nav-bar" href="Professional-education.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Professional Education
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item nav-bar" href="Professional-education.html">Courses</a></li>
+                    <li><a class="dropdown-item nav-bar" href="Professional-education.html">Help Documents</a></li>
+                    <li><a class="dropdown-item nav-bar" href="Professional-education.html">Faculty Resources</a></li>
+                    <li><a class="dropdown-item nav-bar" href="Professional-education.html">Student Resources</a></li>
+                    <li><a class="dropdown-item nav-bar" href="Professional-education.html">Case Studies</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle active nav-bar" href="Patient-education.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Patient Education
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item nav-bar" href="Patient-education.html">General Information</a></li>
+                    <li><a class="dropdown-item nav-bar" href="Patient-education.html">Common Conditions</a></li>
+                    <li><a class="dropdown-item nav-bar" href="Patient-education.html">Treatment Options</a></li>
+                    <li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle active  nav-bar"  href="Research.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Research
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item  nav-bar" href="Research.html">Latest Research</a></li>
+                    <li><a class="dropdown-item  nav-bar" href="Research.html">Documents</a></li>
+                    <li><a class="dropdown-item  nav-bar" href="Research.html">Media Library (Videos)</a></li>
+                    <li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle active  nav-bar" href="products.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Products
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item nav-bar" href="products.html">Toothpastes</a></li>
+                    <li><a class="dropdown-item nav-bar" href="products.html">Brushes</a></li>
+                    <li><a class="dropdown-item nav-bar" href="products.html">Kids' Products</a></li>
+                    <li><a class="dropdown-item nav-bar" href="products.html">Electrical Accessories</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle active nav-bar" href="services.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Services
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item nav-bar" href="services.html">Our Services</a></li>
+                    <li><a class="dropdown-item nav-bar" href="review.html">Reviews From Patient</a></li>
+                    <li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle active nav-bar" href="Contactus.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Contact Us
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item nav-bar" href="Contactus.html">Contact For Appointment</a></li>
+                    <li><a class="dropdown-item nav-bar" href="Contactus.html">Contact For Courses</a></li>
+                    <li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle active nav-bar" href="services.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Appointment
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item nav-bar" href="services.html">Online Appointment</a></li>
+                    <li><a class="dropdown-item nav-bar" href="services.html">Onsite Appointment</a></li>
+                    <li>
+                  </ul>
+                  </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          </div>
+        </div>
+      </nav>
+      <!-- navbar-end -->
+
+      
+      <!-- intro section -->
+      <section id="home">
+        <div class="video-container">
+          <video autoplay muted loop id="background-video">
+              <source src="Images/Background.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+          </video>
+          <div class="overlay">
+          <div class="container overlay-content">
+            <div class="col-lg-12 col-sm-12 mt-5" style="align-content: center;">
+                      <h1 class="zoom-heading display-4">Welcome To <span style="color: #13BD9E"> 32 SMILES DENTAL</span> <span style="-webkit-text-stroke: black 2px; color: transparent;">CLINIC & COLLEGE</span></h1>
+                      <h1 class="zoom-heading">Excellence In Dental Care & Education</h1>
+                      <p class="zoom-heading" style="text-align: center;">Welcome to 32 Smiles Dental College and Clinic, where excellence in dental education meets compassionate patient care. As a premier institution dedicated to the advancement of dental sciences, 32Smiles offers comprehensive professional education programs for aspiring dental students and practitioners. Our state-of-the-art facilities and experienced faculty provide a nurturing environment for learning, research, and skill development. From foundational courses to advanced clinical training, our curriculum emphasizes hands-on experience and cutting-edge techniques, ensuring our graduates are well-prepared for successful careers in dentistry. Beyond education, 32Smiles also serves as a trusted destination for dental care, offering a wide range of services to promote oral health and wellness in our community. With a commitment to excellence and a passion for serving others, 32Smiles Dental College and Clinic is dedicated to transforming smiles and improving lives.</p>
+                    </div>
+          </div>
+          </div>
+      </div>
+      </section>
+
+      <!-- about us -->
+      <div class="container-fluid" style="background-image: url(IMAGES/DIV2.jpg); background-position: center; background-repeat: no-repeat; background-size: cover;">
+      <section id="aboutus">
+        <div class="container" data-aos="fade-up">
+           <h2 class="text-center display-2 mt-5">About US</h2>
+           <div class="row mt-2">
+            <div class="col-lg-4 col-sm-12"><img src="IMAGES/ozkan-guner-AduzI0N9iRI-unsplash.jpg" alt="" style="height: 400px; width: 99%; opacity: 0.8;"></div>
+            <div class="col-lg-8 col-sm-12 mt-3" style="text-align: justify;">Welcome to 32 Smiles Dental Clinic and College, where we blend cutting-edge dental care with comprehensive education to create a unique and holistic approach to oral health. At 32 Smiles, we understand that a beautiful smile is a reflection of both excellent dental health and confidence. Our state-of-the-art clinic is equipped with the latest in dental technology, ensuring that our patients receive the highest quality of care in a comfortable and welcoming environment. Our team of experienced and compassionate dental professionals is dedicated to providing personalized treatment plans tailored to meet the individual needs of each patient. Whether you require routine check-ups, advanced restorative procedures, or cosmetic enhancements, we are committed to helping you achieve and maintain a radiant smile.
+              In addition to our clinical services, 32 Smiles is proud to offer a robust dental college program, where we train the next generation of dental professionals. Our college combines rigorous academic coursework with hands-on clinical experience, ensuring that our students are well-prepared to excel in their careers. Our faculty comprises seasoned practitioners and educators who are passionate about mentoring and developing future leaders in dentistry. We believe in fostering a learning environment that encourages curiosity, innovation, and a commitment to lifelong learning.
+              At 32 Smiles Dental Clinic and College, we are more than just a dental practice and educational institution; we are a community dedicated to promoting oral health and well-being. We strive to build lasting relationships with our patients and students, grounded in trust, respect, and a shared commitment to excellence. Join us at 32 Smiles, where your dental health and education are our top priorities, and let us help you shine with confidence every day.</div>
+        </div>
+      </div>
+      </section>
+
+      <!-- counter -->
+      <div class="container-fluid mt-5"  data-aos="fade-up">
+        <div class="row  mt-5">
+          <div class="col-lg-3 col-sm-6" data-aos="zoom-in">
+            <div class="d-block justify-content-center align-items-center mt-5 text-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="#13BD9E" class="bi bi-person-hearts" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M11.5 1.246c.832-.855 2.913.642 0 2.566-2.913-1.924-.832-3.421 0-2.566M9 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0m-9 8c0 1 1 1 1 1h10s1 0 1-1-1-4-6-4-6 3-6 4m13.5-8.09c1.387-1.425 4.855 1.07 0 4.277-4.854-3.207-1.387-5.702 0-4.276ZM15 2.165c.555-.57 1.942.428 0 1.711-1.942-1.283-.555-2.281 0-1.71Z"/>
+              </svg>
+              <h2 class="fw-bold mt-2">8,560+</h2>
+              <h5 class="fw-bold">Happy Patients</h5>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6" data-aos="zoom-in">
+            <div class="d-block justify-content-center align-items-center mt-5 text-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="#13BD9E" class="bi bi-patch-check" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M10.354 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708 0"/>
+                <path d="m10.273 2.513-.921-.944.715-.698.622.637.89-.011a2.89 2.89 0 0 1 2.924 2.924l-.01.89.636.622a2.89 2.89 0 0 1 0 4.134l-.637.622.011.89a2.89 2.89 0 0 1-2.924 2.924l-.89-.01-.622.636a2.89 2.89 0 0 1-4.134 0l-.622-.637-.89.011a2.89 2.89 0 0 1-2.924-2.924l.01-.89-.636-.622a2.89 2.89 0 0 1 0-4.134l.637-.622-.011-.89a2.89 2.89 0 0 1 2.924-2.924l.89.01.622-.636a2.89 2.89 0 0 1 4.134 0l-.715.698a1.89 1.89 0 0 0-2.704 0l-.92.944-1.32-.016a1.89 1.89 0 0 0-1.911 1.912l.016 1.318-.944.921a1.89 1.89 0 0 0 0 2.704l.944.92-.016 1.32a1.89 1.89 0 0 0 1.912 1.911l1.318-.016.921.944a1.89 1.89 0 0 0 2.704 0l.92-.944 1.32.016a1.89 1.89 0 0 0 1.911-1.912l-.016-1.318.944-.921a1.89 1.89 0 0 0 0-2.704l-.944-.92.016-1.32a1.89 1.89 0 0 0-1.912-1.911z"/>
+              </svg>
+              <h2 class="fw-bold mt-2">27+</h2>
+              <h5 class="fw-bold">Years Of Experience</h5>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6" data-aos="zoom-in">
+            <div class="d-block justify-content-center align-items-center mt-5 text-center">
+             <?xml version="1.0" encoding="utf-8"?><svg version="1.1" id="Layer_1"  fill="#13BD9E"  width="60" height="60"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 122.88 119.96" style="enable-background:new 0 0 122.88 119.96" xml:space="preserve"><g><path class="st0" d="M85.84,78.35c1.33-1.01,3.17-1.07,5.14-0.41c3.77,1.26,2.7,1.37,6.53,0.02c2.46-0.87,4.71-0.63,5.99,0.93 c1.18,1.43,1.06,3.24,0.86,4.98c-0.27,2.44-1.07,4.79-2.38,7.05c0.77,4.67,0.42,8.36-0.15,11.03c-0.82,3.79-2.49,5.11-3.39,0.04 c-0.09-0.52-0.14-1.07-0.15-1.22c-0.36-3.61-0.67-7.2-4.15-7.19c-3.22,0.71-3.4,3.05-3.65,6.75c-0.02,0.24-0.07,1.07-0.17,1.66 c-0.83,5.04-2.61,3.85-3.37,0c-0.46-2.33-0.71-6.1-0.52-11.1c-1.06-2.41-1.88-4.84-2.17-7.34C84.03,81.47,84.01,79.75,85.84,78.35 L85.84,78.35L85.84,78.35z M51.6,56.3c-0.51-0.12-0.82-0.64-0.7-1.15c0.12-0.51,0.64-0.82,1.15-0.7c1.66,0.41,3.32,0.62,4.97,0.62 c1.65,0,3.3-0.2,4.96-0.62c0.51-0.13,1.03,0.18,1.15,0.69c0.13,0.51-0.18,1.03-0.69,1.15c-1.8,0.46-3.61,0.68-5.42,0.67 C55.21,56.96,53.4,56.74,51.6,56.3L51.6,56.3z M72.45,71.66c-1.6-1.63-2.79-3.37-3.98-5.1c-0.19-0.28-0.39-0.57-0.59-0.86 c-2.86,2.27-6.33,3.72-10.85,3.7c-4.88-0.01-8.55-1.88-11.56-4.63c-0.18-0.17-0.36-0.33-0.53-0.5c-0.43,1.2-0.98,2.63-1.57,3.97 c-0.56,1.27-1.16,2.47-1.74,3.34C47.9,84.3,66.44,84.74,72.45,71.66L72.45,71.66z M55.76,7.2h2.51c0.47,0,0.85,0.38,0.85,0.85v3.74 l3.74,0c0.47,0,0.85,0.38,0.85,0.85v2.51c0,0.47-0.38,0.85-0.85,0.85h-3.74v3.74c0,0.47-0.38,0.85-0.85,0.85h-2.51 c-0.47,0-0.85-0.38-0.85-0.85v-3.74h-3.74c-0.47,0-0.85-0.38-0.85-0.85v-2.51c0-0.47,0.38-0.85,0.85-0.85h3.74V8.05 C54.91,7.58,55.29,7.2,55.76,7.2L55.76,7.2L55.76,7.2z M94.32,62.84c7.89,0,15.03,3.2,20.19,8.36c5.17,5.17,8.37,12.31,8.37,20.19 c0,7.89-3.2,15.03-8.37,20.19c-5.17,5.17-12.31,8.36-20.19,8.36s-15.03-3.2-20.19-8.36c-2.3-2.3-4.22-5-5.63-7.98H6.24 c-3.92-0.3-5.91-2.32-6.24-5.83c0.95-6.93,1.18-8.34,5.39-13.9c1.49-1.97,3.35-3.43,5.41-4.58c6.3-3.51,22.88-4.62,29.28-9.51 c0.4-0.68,0.81-1.54,1.21-2.45c0.76-1.74,1.46-3.64,1.9-4.94c-1.86-2.19-3.45-4.65-4.97-7.08l-5.03-8 c-1.84-2.74-2.8-5.25-2.85-7.31c-0.03-0.97,0.14-1.85,0.49-2.62c0.38-0.81,0.95-1.49,1.73-2.01c0.36-0.25,0.77-0.45,1.22-0.62 c-0.33-4.34-0.45-9.81-0.24-14.38c0.11-1.09,0.32-2.17,0.62-3.26c7.88-28.14,45.66-18.13,47.32,5.1l-0.31,13.05v0 c1.39,0.42,2.29,1.31,2.65,2.74c0.4,1.59-0.03,3.82-1.38,6.87l0,0c-0.02,0.06-0.05,0.11-0.09,0.16l-5.73,9.44 c-2.11,3.47-4.24,6.95-7.03,9.69c0.25,0.36,0.5,0.73,0.75,1.09c0.94,1.37,1.88,2.75,3,4.02l0,0c0.46,0.41,0.98,0.79,1.56,1.16 C80.01,65.73,86.83,62.84,94.32,62.84L94.32,62.84z M110.91,74.81c-4.25-4.25-10.11-6.87-16.59-6.87s-12.34,2.63-16.59,6.87 c-4.25,4.24-6.87,10.11-6.87,16.59c0,6.48,2.63,12.34,6.87,16.59c4.24,4.25,10.11,6.87,16.59,6.87c6.48,0,12.34-2.63,16.59-6.87 c4.24-4.24,6.87-10.11,6.87-16.59C117.78,84.92,115.16,79.06,110.91,74.81L110.91,74.81z M63.02,39.76 c-0.42-0.28-0.53-0.84-0.25-1.26c0.28-0.42,0.84-0.53,1.26-0.25c0.5,0.33,1.35,0.51,2.26,0.49c0.86-0.01,1.72-0.2,2.34-0.6 c0.42-0.27,0.98-0.14,1.25,0.28c0.27,0.42,0.14,0.98-0.28,1.25c-0.91,0.58-2.12,0.86-3.28,0.88C65.06,40.58,63.82,40.3,63.02,39.76 L63.02,39.76L63.02,39.76z M76.46,34.5c-0.03-0.98-0.38-1.93-1.01-2.82l-0.03-0.07l-0.01,0.02c-5.98-8.46-35.74-12.28-37.02,5.38 l0.05,0.12l-2.2-0.18l0.16,0.51l-0.15-0.34c-0.91,0.08-1.62,0.3-2.12,0.64c-0.33,0.22-0.57,0.5-0.73,0.84 c-0.17,0.37-0.25,0.83-0.24,1.35c0.04,1.53,0.85,3.53,2.4,5.84l0.02,0.03l5.03,8C53.34,74.01,64.9,68.34,74.2,53.02l5.67-9.33 c1.06-2.41,1.44-4.02,1.2-4.97c-0.14-0.56-0.77-0.84-1.82-0.89c-0.22-0.01-0.46-0.01-0.69-0.01c-0.25,0.01-0.52,0.02-0.79,0.05 c-0.03,0-0.06,0-0.09,0.01L76.46,34.5L76.46,34.5z M44.66,39.76c-0.42-0.28-0.53-0.84-0.25-1.26c0.28-0.42,0.84-0.53,1.26-0.25 c0.51,0.34,1.37,0.53,2.3,0.53c0.87,0,1.76-0.19,2.46-0.59c0.43-0.25,0.99-0.1,1.24,0.33c0.25,0.43,0.1,0.99-0.33,1.24 c-0.98,0.57-2.2,0.82-3.36,0.83C46.7,40.6,45.46,40.3,44.66,39.76L44.66,39.76L44.66,39.76z M44.3,35.72 c-0.41,0.29-0.97,0.19-1.26-0.21c-0.29-0.41-0.2-0.97,0.21-1.26c1.35-0.96,2.73-1.44,4.15-1.45c1.41-0.01,2.82,0.47,4.23,1.44 c0.41,0.28,0.51,0.85,0.23,1.26c-0.28,0.41-0.85,0.52-1.26,0.23c-1.1-0.76-2.16-1.13-3.2-1.12C46.37,34.6,45.33,34.98,44.3,35.72 L44.3,35.72L44.3,35.72z M63.88,35.72c-0.41,0.29-0.97,0.19-1.26-0.21c-0.29-0.41-0.19-0.97,0.21-1.26 c1.35-0.96,2.73-1.44,4.15-1.45c1.41-0.01,2.82,0.47,4.23,1.44c0.41,0.28,0.51,0.85,0.23,1.26c-0.28,0.41-0.85,0.52-1.26,0.23 c-1.1-0.76-2.16-1.13-3.2-1.12C65.96,34.6,64.92,34.98,63.88,35.72L63.88,35.72L63.88,35.72z"/></g></svg>
+              <h2 class="fw-bold mt-2">1,250+</h2>
+              <h5 class="fw-bold">Dentist And Staff</h5>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6" data-aos="zoom-in">
+            <div class="d-block justify-content-center align-items-center mt-5 text-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="#13BD9E" class="bi bi-hospital" viewBox="0 0 16 16">
+                <path d="M8.5 5.034v1.1l.953-.55.5.867L9 7l.953.55-.5.866-.953-.55v1.1h-1v-1.1l-.953.55-.5-.866L7 7l-.953-.55.5-.866.953.55v-1.1zM13.25 9a.25.25 0 0 0-.25.25v.5c0 .138.112.25.25.25h.5a.25.25 0 0 0 .25-.25v-.5a.25.25 0 0 0-.25-.25zM13 11.25a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25zm.25 1.75a.25.25 0 0 0-.25.25v.5c0 .138.112.25.25.25h.5a.25.25 0 0 0 .25-.25v-.5a.25.25 0 0 0-.25-.25zm-11-4a.25.25 0 0 0-.25.25v.5c0 .138.112.25.25.25h.5A.25.25 0 0 0 3 9.75v-.5A.25.25 0 0 0 2.75 9zm0 2a.25.25 0 0 0-.25.25v.5c0 .138.112.25.25.25h.5a.25.25 0 0 0 .25-.25v-.5a.25.25 0 0 0-.25-.25zM2 13.25a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25z"/>
+                <path d="M5 1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v1a1 1 0 0 1 1 1v4h3a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h3V3a1 1 0 0 1 1-1zm2 14h2v-3H7zm3 0h1V3H5v12h1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1zm0-14H6v1h4zm2 7v7h3V8zm-8 7V8H1v7z"/>
+              </svg>
+              <h2 class="fw-bold mt-2">2,500+</h2>
+              <h5 class="fw-bold">Branches</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- services -->
+      <section id="services" class="mt-5">
+        <div class="container mt-5"  data-aos="fade-up">
+          <div class="row">
+            <h2 class="display-2 text-center">Our Services</h2>
+           <div class="col-lg-12 col-sm-12">
+            <h3 class="text-center mt-3">Our Services At Dental Care</h3>
+            <div class="row mt-4">
+              <div class="col-lg-3 col-sm-6 border-0" data-aos="fade-down">
+              <div class="card bg-transparent border-0">
+                <a href="services.html" class="text-decoration-none text-black services-card1">
+                  <div class="justify-content-center align-content-center d-flex">
+                    <img src="IMAGES/services1.png" class="card-img-top mt-2" style="height: 90px; width: 90px;"></div>
+                <div class="card-body">
+                  <h3 class="card-text text-center">Dental Implants</h3>
+                </div></a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6" data-aos="fade-down">
+              <div class="card bg-transparent border-0">
+                <a href="services.html" class="text-decoration-none text-black services-card1">
+                  <div class="justify-content-center align-content-center d-flex">
+                    <img src="IMAGES/implant.png" class="card-img-top mt-2" style="height: 90px; width: 90px;"></div>
+                <div class="card-body">
+                  <h3 class="card-text text-center">Root Canal</h3>
+                </div>
+              </a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6" data-aos="fade-down"> 
+              <div class="card bg-transparent border-0">
+              <a href="services.html" class="text-decoration-none text-black services-card1">
+                <div class="justify-content-center align-content-center d-flex">
+                  <img src="IMAGES/tooth.png" class="card-img-top mt-2" style="height: 90px; width: 90px;"></div>
+              <div class="card-body">
+                <h3 class="card-text text-center">Teeth Whitening</h3>
+              </div>
+            </a>
+            </div>
+          </div>
+            <div class="col-lg-3 col-sm-6" data-aos="fade-down">
+              <div class="card bg-transparent border-0">
+                <a href="services.html" class="text-decoration-none text-black services-card1">
+                  <div class="justify-content-center align-content-center d-flex">
+                    <img src="IMAGES/dental-care.png" class="card-img-top mt-2"  style="height: 90px; width: 90px;"></div>
+                <div class="card-body">
+                  <h3 class="card-text text-center">Teeth Cleanings</h3>
+                </div>
+              </a>
+              </div>
+            </div>
+          </div>
+           </div>
+          </div>
+        </div>
+      </section>
+      </div>
+      
+<div class="container-fluid" style="background-image: url(IMAGES/DIV4.jpg); background-position: center; background-repeat: no-repeat;">
+      <!-- Course -->
+      <section>
+        <div class="container">
+          <div class="row">
+            <h2 class="text-center display-2 mt-5" data-aos="zoom-in">Courses</h2>
+            <div class="row row-cols-1 row-cols-md-4 g-4">
+              <div class="col" data-aos="zoom-in">
+                <div class="card border-0 shadow-lg  services-card2">
+                  <img src="IMAGES/jonathan-borba-W9YEY6G8LVM-unsplash.jpg" class="card-img-top" alt="..." height="200px">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Dental Hygiene:</h5>
+                    <p class="card-text text-center">Comprehensive program covering oral, preventive care techniques</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col" data-aos="zoom-in">
+                <div class="card border-0 shadow-lg  services-card2">
+                  <img src="IMAGES/lafayett-zapata-montero-XBFk6NFB_yg-unsplash.jpg" class="card-img-top" height="200px">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Dental Assisting:</h5>
+                    <p class="card-text text-center">Training in patient care, office management, and dental procedures</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col" data-aos="zoom-in">
+                <div class="card border-0 shadow-lg  services-card2">
+                  <img src="IMAGES/quang-tri-nguyen-VckdJzo7ig0-unsplash.jpg" class="card-img-top" height="200px">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Dental Technology:</h5>
+                    <p class="card-text text-center">Focus on creating dental prosthetics and appliances, and Machines</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col" data-aos="zoom-in">
+                <div class="card border-0 shadow-lg  services-card2">
+                  <img src="IMAGES/jonathan-borba-v_2FRXEba94-unsplash.jpg" class="card-img-top" height="200px">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Advanced Dental Studies:</h5>
+                    <p class="card-text text-center">Specializations in areas like orthodontics, and oral surgery</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <!-- Branches -->
+      <section>
+        <div class="container mt-5">
+          <div class="row row-cols-1 row-cols-md-2 g-4 mt-5">
+            <div class="col">
+                <h2 class="display-1"  data-aos="fade-right">
+                Our Branches <span class="justify-content-end d-flex">In The World</span>
+              </h2>
+              <div class="row mt-lg-5">
+                <div class="col-sm-12 col-lg-6 col-md-6">
+                <ul class="list-unstyled ms-lg-5"  data-aos="fade-right">
+                  <li class="fw-bolder fs-3">&check; Pakistan</li>
+                  <li class="fw-bolder fs-3">&check; USA</li>
+                  <li class="fw-bolder fs-3">&check; Itlay</li>
+                  <li class="fw-bolder fs-3">&check; China</li>
+                  <li class="fw-bolder fs-3">&check; UAE</li>
+                </ul>
+              </div>
+              <div class="col-sm-12 col-lg-6 col-md-6">
+                <ul class="list-unstyled ms-lg-5"  data-aos="fade-right">
+                  <li class="fw-bolder fs-3">&check; Germany</li>
+                  <li class="fw-bolder fs-3">&check; Australia</li>
+                  <li class="fw-bolder fs-3">&check; Switzerland</li>
+                  <li class="fw-bolder fs-3">&check; England</li>
+                  <li class="fw-bolder fs-3">&check; Saudi Arabia</li>
+                </ul>
+              </div>
+              </div>
+            </div>
+            <div class="col" data-aos="zoom-in" data-aos-duration="1500" data-aos-offset="500">
+              <div class="d-flex justify-content-center align-items-center" style="height: 550px;">
+              <video src="IMAGES/world.mp4" muted loop autoplay style="height: 400px; width: 100%;">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Testimonials  -->
+      <section>
+        <div class="container">
+          <h2 class="text-center display-1" data-aos="zoom-in">What People Says About Us</h2>
+          <div class="row row-cols-1 row-cols-md-2 g-5 mt-5">
+            <div class="col shadow-lg">
+              <div class="d-flex">
+              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#00ffd0" class="bi bi-quote" viewBox="0 0 16 16" style="margin-top: -30px; margin-left: -25px;">
+                <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"/>
+              </svg>
+              <h5 style="font-weight: bold; margin-left: 20px;">Patient Testimonial</h5>
+            </div>
+              <p>“The staff at 32 Slimes Dental Clinic made me feel comfortable and cared for. I couldn't be happier with my new smile!” <br>– Sarah M.
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="gold" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="gold" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="gold" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="gold" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="gold" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <div class="d-flex justify-content-end">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="black" class="bi bi-google" viewBox="0 0 16 16">
+                    <path d="M15.545 6.558a9.4 9.4 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.7 7.7 0 0 1 5.352 2.082l-2.284 2.284A4.35 4.35 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.8 4.8 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.7 3.7 0 0 0 1.599-2.431H8v-3.08z"/>
+                  </svg>
+                </div>
+              </p>
+            </div>
+            <div class="col shadow-lg">
+              <div class="d-flex">
+              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#00ffd0" class="bi bi-quote" viewBox="0 0 16 16" style="margin-top: -30px; margin-left: -25px;">
+                <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"/>
+              </svg>
+              <h5 style="font-weight: bold; margin-left: 20px;">Student Testimonial</h5>
+            </div>
+              <p>“The education I received at 32 Slimes College prepared me well for my career in dentistry. The hands-on experience and knowledgeable faculty were invaluable.” <br> – John D.
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="gold" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="gold" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="gold" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="gold" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="gold" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <div class="d-flex justify-content-end">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="black" class="bi bi-google" viewBox="0 0 16 16">
+                    <path d="M15.545 6.558a9.4 9.4 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.7 7.7 0 0 1 5.352 2.082l-2.284 2.284A4.35 4.35 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.8 4.8 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.7 3.7 0 0 0 1.599-2.431H8v-3.08z"/>
+                  </svg>
+                </div>
+              </p>
+            </div>
+            <div class="col shadow-lg">
+              <div class="d-flex">
+              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#00ffd0" class="bi bi-quote" viewBox="0 0 16 16" style="margin-top: -30px; margin-left: -25px;">
+                <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"/>
+              </svg>
+              <h5 style="font-weight: bold; margin-left: 20px;">Exceptional Service and Care</h5>
+            </div>
+              <p>I recently visited 32 Smiles Dental Care, and I couldn't be more impressed with the level of service and care I received. From the moment I walked in, the staff made me feel welcome and at ease. Dr. Ali DDS and the team were incredibly professional, explaining every step of my treatment with clarity and patience. The state-of-the-art facilities and the warm atmosphere made my experience even better. I highly recommend 32 Smiles Dental Care to anyone looking for top-notch dental care. My smile has never looked better! <br>– Syed Zain. 
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="gold" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="gold" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="gold" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="gold" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="gold" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <div class="d-flex justify-content-end">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="black" class="bi bi-google" viewBox="0 0 16 16">
+                    <path d="M15.545 6.558a9.4 9.4 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.7 7.7 0 0 1 5.352 2.082l-2.284 2.284A4.35 4.35 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.8 4.8 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.7 3.7 0 0 0 1.599-2.431H8v-3.08z"/>
+                  </svg>
+                </div>
+              </p>
+            </div>
+            <div class="col shadow-lg">
+              <div class="d-flex">
+              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#00ffd0" class="bi bi-quote" viewBox="0 0 16 16" style="margin-top: -30px; margin-left: -30px;">
+                <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"/>
+              </svg>
+              <h5 style="font-weight: bold; margin-left: 20px;">A Life-Changing Experience</h5>
+            </div>
+              <p>Attending 32 Smiles Dental College has been one of the best decisions of my life. The faculty are not only knowledgeable but also incredibly supportive, always willing to go the extra mile to help students succeed. The diverse range of courses and extracurricular activities offered here has provided me with a well-rounded education and invaluable life skills. The campus environment is vibrant and welcoming, making it easy to form lasting friendships. I feel well-prepared for my future career, thanks to the excellent education and opportunities I've received at 32 Smiles Dental College. I couldn't imagine a better place to pursue my studies! <br>– Saad D, 2022 
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="gold" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="gold" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="gold" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="gold" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="gold" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg>
+                <div class="d-flex justify-content-end">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="black" class="bi bi-google" viewBox="0 0 16 16">
+                    <path d="M15.545 6.558a9.4 9.4 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.7 7.7 0 0 1 5.352 2.082l-2.284 2.284A4.35 4.35 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.8 4.8 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.7 3.7 0 0 0 1.599-2.431H8v-3.08z"/>
+                  </svg>
+                </div>
+              </p>
+            </div>
+          </div>
+          </div>
+  </section>
+</div>
+
+      <!-- get in touch -->
+      <div class="container mt-5" data-aos="zoom-in">
+        <div class="row" style="background-color: #13bd9e7c; box-shadow: 10px 10px 25px rgba(128, 128, 128, 0.623); border-radius: 5px;">
+          <h1 class="display-2">Get In Touch <br>With Us</h1>
+          <div class="col-lg-7 col-sm-12 mb-3">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control bg-transparent border-1 border border-secondary w-50" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control bg-transparent border-1 border border-secondary w-50" id="exampleInputPassword1" required>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input bg-outline-dark" type="checkbox" value="" id="invalidCheck" required>
+                <label class="form-check-label" for="invalidCheck">
+                  Agree to terms and conditions
+                </label>
+                <div class="invalid-feedback">
+                  You must agree before submitting.
+                </div>
+              </div>
+              <button type="submit" class="btn btn-outline-dark mt-2">Submit</button>
+            </form>
+          </div>
+            <div class="col-lg-5 col-sm-12 mt-sm-5 mt-lg-0">
+              <div style="height: 90%;" class="mt-sm-5 mt-lg-0">
+                <div class="ms-lg-3 ms-md-3 ms-sm-0">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="black" class="bi bi-clock mb-2" viewBox="0 0 16 16">
+                    <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
+                  </svg><span class="fs-3"> Opening Hours</span>
+                  <ul class="list-unstyled ms-lg-4 ms-sm-0 fs-5">
+                    <li>Monday: 24 Hour Services</li>
+                    <li>Tuesday: 24 Hour Services</li>
+                    <li>Wednesday: 24 Hour Services</li>
+                    <li>Thursday: 24 Hour Services</li>
+                    <li>Friday: 24 Hour Services</li>
+                    <li>Saturday: 24 Hour Services</li>
+                    <li>Sunday: Only Emergency Services</li>
+                  </ul>
+                </div>
+              </div>
+                
+              
+          
+          </div>
+          </div>
+        </div>
+      </div>
+
+
+
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3631.4138346196087!2d54.38312907619329!3d24.47111416072502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5e67ff53913dc7%3A0xae932e5627edb3b!2s32%20Smiles%20Dental%20Center!5e0!3m2!1sen!2s!4v1718399259143!5m2!1sen!2s" width="100%" height="450" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mt-5"></iframe>
+
+
+<!-- Footer -->
+  <section style="background-image: linear-gradient(to bottom, white, #0fdfb8 ,#078f76);">
+    <footer class="footer mt-5 py-5">
+      <div class="container">
+          <div class="row">
+              <!-- Home -->
+              <div class="col-md-3 col-sm-6">
+                <h5>About Us</h5>
+                <ul class="list-unstyled">
+                  <li><a href="about.html">Mission and vision statements</a></li>
+                  <li><a href="about.html">Our Team</a></li>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <h5>Services</h5>
+                <ul class="list-unstyled">
+                    <li><a href="services.html">Routine check-ups</a></li>
+                    <li><a href="services.html">Urgent dental treatments</a></li>
+                </ul>
+              </div>
+
+              <!-- About US -->
+              <div class="col-md-3 col-sm-6">
+                <h5>Admissions</h5>
+                <ul class="list-unstyled">
+                    <li><a href="Professional-education.html">For Short Course</a></li>
+                    <li><a href="Professional-education.html">For DDS Or DMD</a></li>
+                </ul>
+              </div>
+
+              <!-- Blog -->
+              <div class="col-md-3 col-sm-6">
+                <h5>Contact Us</h5>
+                <ul class="list-unstyled">
+                    <li><a href="32smileshomepage.html">32Smiles.clinic.edu.com</a></li>
+                    <li>
+                      <a href="none"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" class="whatsapp" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                      <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+                    </svg></a>
+                    <a href="none" class="ms-1"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-youtube youtube" viewBox="0 0 16 16">
+                      <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+                    </svg></a>
+                    <a href="none" class="ms-1"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-twitter-x twitter" viewBox="0 0 16 16">
+                      <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+                    </svg></a>
+                    <a href="none" class="ms-1"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-instagram instagram" viewBox="0 0 16 16">
+                      <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                    </svg></a>
+                    <a href="none" class="ms-1"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-facebook facebook" viewBox="0 0 16 16">
+                      <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                    </svg></a>
+                    <a href="none" class="ms-1"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-telegram telegram" viewBox="0 0 16 16">
+                      <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.287 5.906q-1.168.486-4.666 2.01-.567.225-.595.442c-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294q.39.01.868-.32 3.269-2.206 3.374-2.23c.05-.012.12-.026.166.016s.042.12.037.141c-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8 8 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629q.14.092.27.187c.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.4 1.4 0 0 0-.013-.315.34.34 0 0 0-.114-.217.53.53 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09"/>
+                    </svg></a>
+                  </li>
+                </ul>
+              </div>
+          </div>
+      
+
+          <div class="row mt-4">
+              <div class="col text-center">
+                  <p>More Ways To Contact With Us: Find An 32 Smiles Or Other Dental Care Near You. Or Call +92-345-6789101.</p>
+                  <p>International Inc.</p>
+                  <p>Copyright &copy; 2024 | 32 Smiles Dental Clinic & College | All Rights Reserved. <a href="privacy.html" style="color: blue;">Privacy Policy</a><a href="legal.html" style="color: black;"> Legal </a></p>
+              </div>
+          </div>
+      </div>
+  </footer>
+  </section>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

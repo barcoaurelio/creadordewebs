@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>32 Smiles</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="shortcut icon" href="IMAGES/Favicon.png" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Assets/css/aboutcss.css">
+</head>
+<body>
+    <nav class="navbar shadow-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="IMAGES/logo.png" alt="dental-logo" style="height: 50px;"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel"> <img src="IMAGES/logo.png" alt="dental-logo" style="height: 50px;"></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="d-flex justify-content-evenly">
+            <div class="offcanvas-body">
+              <ul class="navbar-nav flex-grow-1">
+                <li class="nav-item">
+                  <a class="nav-link active nav-bar" aria-current="page" href="32smileshomepage.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active nav-bar" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active nav-bar" href="Blog.html">Blog</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle active nav-bar" href="Professional-education.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Professional Education
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item nav-bar" href="Professional-education.html">Courses</a></li>
+                    <li><a class="dropdown-item nav-bar" href="Professional-education.html">Help Documents</a></li>
+                    <li><a class="dropdown-item nav-bar" href="Professional-education.html">Faculty Resources</a></li>
+                    <li><a class="dropdown-item nav-bar" href="Professional-education.html">Student Resources</a></li>
+                    <li><a class="dropdown-item nav-bar" href="Professional-education.html">Case Studies</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle active nav-bar" href="Patient-education.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Patient Education
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item nav-bar" href="Patient-education.html">General Information</a></li>
+                    <li><a class="dropdown-item nav-bar" href="Patient-education.html">Common Conditions</a></li>
+                    <li><a class="dropdown-item nav-bar" href="Patient-education.html">Treatment Options</a></li>
+                    <li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle active  nav-bar"  href="Research.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Research
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item  nav-bar" href="Research.html">Latest Research</a></li>
+                    <li><a class="dropdown-item  nav-bar" href="Research.html">Documents</a></li>
+                    <li><a class="dropdown-item  nav-bar" href="Research.html">Media Library (Videos)</a></li>
+                    <li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle active  nav-bar" href="products.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Products
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item nav-bar" href="products.html">Toothpastes</a></li>
+                    <li><a class="dropdown-item nav-bar" href="products.html">Brushes</a></li>
+                    <li><a class="dropdown-item nav-bar" href="products.html">Kids' Products</a></li>
+                    <li><a class="dropdown-item nav-bar" href="products.html">Electrical Accessories</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle active nav-bar" href="services.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Services
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item nav-bar" href="services.html">Our Services</a></li>
+                    <li><a class="dropdown-item nav-bar" href="review.html">Reviews From Patient</a></li>
+                    <li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle active nav-bar" href="Contactus.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Contact Us
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item nav-bar" href="Contactus.html">Contact For Appointment</a></li>
+                    <li><a class="dropdown-item nav-bar" href="Contactus.html">Contact For Courses</a></li>
+                    <li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle active nav-bar" href="services.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Appointment
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item nav-bar" href="services.html">Online Appointment</a></li>
+                    <li><a class="dropdown-item nav-bar" href="services.html">Onsite Appointment</a></li>
+                    <li>
+                  </ul>
+                  </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          </div>
+        </div>
+    </nav>
+      <!-- navbar-end -->
+
+
+
+
+    <!--Description-->
+    <section id="aboutus">
+        <div class="container mt-5">
+            <h2 class="text-center display-1">About US</h2>
+            <div class="row mt-5">
+                <div class="col-lg-4 mt-4 col-sm-12"><img src="Assets/img/description.jpg" alt="" style="height: 370px; width: 99%;"></div>
+                <div class="col-lg-8 mt-4 col-sm-12" style="align-content: center; text-align: justify">Welcome to 32 Smiles Dental Clinic and College, where we blend cutting-edge dental care with comprehensive education to create a unique and holistic approach to oral health. At 32 Smiles, we understand that a beautiful smile is a reflection
+                    of both excellent dental health and confidence. Our state-of-the-art clinic is equipped with the latest in dental technology, ensuring that our patients receive the highest quality of care in a comfortable and welcoming environment.
+                    Our team of experienced and compassionate dental professionals is dedicated to providing personalized treatment plans tailored to meet the individual needs of each patient. Whether you require routine check-ups, advanced restorative
+                    procedures, or cosmetic enhancements, we are committed to helping you achieve and maintain a radiant smile. In addition to our clinical services, 32 Smiles is proud to offer a robust dental college program, where we train the next
+                    generation of dental professionals. Our college combines rigorous academic coursework with hands-on clinical experience, ensuring that our students are well-prepared to excel in their careers. Our faculty comprises seasoned practitioners
+                    and educators who are passionate about mentoring and developing future leaders in dentistry. We believe in fostering a learning environment that encourages curiosity, innovation, and a commitment to lifelong learning. At 32 Smiles
+                    Dental Clinic and College, we are more than just a dental practice and educational institution; we are a community dedicated to promoting oral health and well-being. We strive to build lasting relationships with our patients and students,
+                    grounded in trust, respect, and a shared commitment to excellence. Join us at 32 Smiles, where your dental health and education are our top priorities, and let us help you shine with confidence every day.</div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <!--Description-->
+
+
+
+    <!--our mission-->
+    <section id="ourmission" >
+        <div class="container mt-5">
+            <h2 class="text-center mt-4 display-4">Our Mission</h2>
+              <div class="row mt-4">
+                <div class="col-lg-3 justify-content-center d-flex mb-5"><img class="img-fluid" style="height: 150px;" src="Assets/img/clinic.png" alt=""></div>
+                <div class="col-lg-3 justify-content-center d-flex mb-5"><img class="img-fluid" style="height: 150px;" src="Assets/img/protection.png" alt=""></div>
+                <div class="col-lg-3 justify-content-center d-flex mb-5"><img class="img-fluid" style="height: 150px;" src="Assets/img/tooth.png" alt=""></div>
+                <div class="col-lg-3 justify-content-center d-flex mb-5"><img class="img-fluid" style="height: 150px;" src="Assets/img/healthy.png" alt=""></div>
+              </div>
+            <div class="row">
+                <div class="col-lg-6 col-sm-12 mt-4" style="text-align: left;">
+                    <li>To Deliver A Robust Multi-Specialty Dental Treatment To Our Patients, Increase Awareness And Address Their Immediate Dental Problems.</li>
+                    <br>
+                    <li>To Achieve Excellence In Dentistry By Ensuring Up-To-Date Diagnosis And Treatment Technology And Employing Highly Qualified And Dedicated Professionals.</li>
+                    <br>
+                    <li>To Promote Charity For The Needy And Aid Them With Proper Guidance Of Oral Care.</li>
+                    <br>
+                    <li>To Partner With Leading Oral Care Companies And Technology Providers With An Aim To Understand, Be Informed And Procure The Best Technologies And Instruments In The Market.</li>
+                </div>
+                <div class="col-lg-6 col-sm-12 mt-4" style="text-align: left;">
+                    <li>To Gain Confidence Of The Patients And Deliver Painless, Hassle Free Treatment.</li>
+                    <br>
+                    <li>To Keep Up With The Good Work Through Visionary Leadership, Continual Dental Research And Implementation.</li>
+                    <br>
+                    <li>To Collaborate And Share Our Clinical Expertise With Dental Colleagues, Through Workshops, Conferences, And Lectures As Well As Taking An Active Role In Various Professional Dental Organization To Serve The Dental Community.</li>
+                    <br>
+                    <li>To Engage And Educate The Public Regarding Dental Hygiene Through Social Media, Dental Seminars/ Blogs, Media Interviews And Other Communication Channels.</li>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <!--our mission-->
+
+
+
+    <!--our vission-->
+    <section id="ourvission">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12 mt-4">
+                    <h2 class="text-center display-4">Our vission</h2>
+                    <p style="text-align: justify;">32 Smile Dental Clinic, Which Was A Dream Project Of Dr. Jane Doe, Focuses On The Vision Of Streamlining And Standardizing Dental Treatment By Providing Best Dental Care Through Competent And Efficient Means In A Pleasing And Transparent
+                        Manner. The Organization Strives To Meet Those Challenges With A Combination Of The Clinical Excellence, Unsurpassed Compassion And Service. We Believe In Continual Growth And For That We Do Not Shy Away From Reaching Out To Our
+                        Patients And Seeking Their Views And Concerns To Improve Our Services And Patient Satisfaction.
+
+                        <br><br> 32 Smile Aims Eventually To Be Widely Recognized As One Of The World’s Leading And Most Preferred Dental Care Service Provider Through Unmatched Treatment Outcomes, Cutting Edge Technology & Procedure Delivery System And
+                        International Standards—All Of Which Is Aimed At Ensuring The Highest Level Of Customer Satisfaction. In The Future, 32 Smile Also Aims To Expand Its Horizon To A Wider Base Of Patients Across Different Regions.</p>
+                </div>
+                <div class="col-lg-6 col-sm-12 mt-4" style="align-content: center;">
+                    <img src="Assets/img/jane.jpg" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <!--our vission-->
+
+
+
+    <!--our team-->
+    <!-- <section id="ourteam" data-aos="fade-up">
+        <h2 class="justify-content-center text-center mt-5 display-4">Our Team</h2>
+        <div class="container02" style="top: -20px;">
+            <div class="row">
+                <div class="card" style="color: rgb(0, 0, 0);">
+                    <div class="imgbx">
+                        <img src="Assets/img/jane.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h2>Dr. Jane Doe</h2>
+                        <h5>(DDS)</h5>
+                        <p>Dr. Doe Has Over 20 Years Of Experience In Cosmetic Dentistry And Is A Renowned Speaker At Dental Conferences Worldwide.</p>
+                        </div>
+                </div>
+
+                <div class="card" style="color: rgb(0, 0, 0);">
+                    <div class="imgbx">
+                        <img src="Assets/img/jessica.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h2>Dr. Jessica Baron</h2>
+                        <h5>(DDS)</h5>
+                        <p>Dr. Jessica Baron Is A Board-Certified Pediatric Dentist And Diplomate Of The American Board Of Pediatric Dentistry.</p>
+                        </div>
+                </div>
+
+                <div class="card" style="color: rgb(0, 0, 0);">
+                    <div class="imgbx">
+                        <img src="Assets/img/karim.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h2>Dr. Karim Bassily</h2>
+                        <h5>(DMD)</h5>
+                        <p>Dr. Bassily Graduated In 2017 From NYU College Of Dentistry And Completed His Residency At Loyola Hospital In Chicago.</p>
+                        </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="card" style="color: rgb(0, 0, 0);">
+                    <div class="imgbx">
+                        <img src="Assets/img/ariel.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h2>Dr. Ariel Winter</h2>
+                        <h5>(DDS)</h5>
+                        <p>Dr. Ariel Winter Graduated Cum Laude From Marquette University School Of Dentistry In 2019 And Completed.</p>
+                       </div>
+                </div>
+
+                <div class="card" style="color: rgb(0, 0, 0);">
+                    <div class="imgbx">
+                        <img src="Assets/img/john.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h2>Dr. John Smith</h2>
+                        <h5>(DDS)</h5>
+                        <p>Dr. Smith Specializes In Orthodontics And Has Published Several Research Papers On Innovative Orthodontic Treatments.</p>
+                        </div>
+                </div>
+
+                <div class="card" style="color: rgb(0, 0, 0);">
+                    <div class="imgbx">
+                        <img src="Assets/img/jenny.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h2>Dr. Jenny Armstrong</h2>
+                        <h5>(DMD)</h5>
+                        <p>Dr. Jenny Armstrong Is A General Dentist Practicing At Midtown Dental Group In New York, NY.</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br> -->
+    <!--our team-->
+
+
+
+    <!--our college mission-->
+    <section id="ourcollegemission">
+        <div class="container">
+          <h2 class="text-center display-4">Our College Mission</h2>
+          <div class="row mt-4">
+            <div class="col-lg-3 col-sm-12 d-flex justify-content-center mb-5"><img class="img-fluid" style="height: 150px;" src="Assets/img/college.png"></div>              
+            <div class="col-lg-3 col-sm-12 d-flex justify-content-center mb-5"><img class="img-fluid" style="height: 150px;" src="Assets/img/student.png"></div>              
+            <div class="col-lg-3 col-sm-12 d-flex justify-content-center mb-5"><img class="img-fluid" style="height: 150px;" src="Assets/img/education.png"></div>                
+            <div class="col-lg-3 col-sm-12 d-flex justify-content-center mb-5"><img class="img-fluid" style="height: 150px;" src="Assets/img/congratulation.png"></div>
+          </div>
+          
+          <div class="row">
+            <div class="col-12">
+              <h3 class="mt-4">Education Committed To Clinical Excellence</h3>
+              <li>Provide A Contemporary Curriculum With Themes Of Integration, As Well As A Preclinical And Clinical Environment That Incorporates Emerging Practice Models And Technologies.</li>
+              <h3 class="mt-4">Knowledge To Improve General And Oral Health</h3>
+              <li>Alignment Of Research And Scholarship To Contribute To Knowledge And Practice For Oral And General Health.</li>
+              <h3 class="mt-4">Care And Community</h3>
+              <li>Provide And Develop An Environment Promoting A Culture Of Inclusivity And Contemporary Care For Faculty, Staff, Students, Alumni, And Patients Locally And Globally.</li>
+              <h2 class="mt-4">We Achieve Our Mission Through:</h2>
+              <li>Evolving Comprehensive Dental Education That Integrates Science, Technology, Patient Needs, And Lifelong Learning In A World-Class Environment.</li>
+              <li>Interdisciplinary, Dynamic Research To Improve Oral Care And Impact Overall Health.</li>
+              <li>Recruitment, Development, Support, And Retention Of A Diverse Group Of Exceptional Students, Faculty, Staff, And Alumni.</li>
+              <li>Civic Engagement In Service To Our Local, Regional, National, And Global Communities.</li>
+            </div>
+            </div>
+    </section>
+    <br><br>
+    <!--our college mission-->
+
+
+
+
+    <!--our college values-->
+    <section id="ourcollegevalues">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12 mt-4">
+                    <h2 class="text-center display-5">Our College Values</h2>
+                    <br><br>
+                    <li>Professional Excellence And Integrity In Living, Learning, And Practicing With The Highest Ethical And Clinical Standards.</li>
+                    <br><br>
+                    <li>Commitment To Advance Dentistry Through The Integration Of Education, Research, And Collaboration.</li>
+                    <br><br>
+                    <li>Respect For One Another’s Rights, Opinions, And Beliefs In A Diverse, Culturally Sensitive, And Supportive Environment.</li>
+                    <br><br>
+                    <li>A Culture Of Open Communication That Fosters A Sense Of Community.</li>
+                </div>
+                <div class="col-lg-6 col-sm-12 mt-4" style="align-content: center;">
+                    <img src="Assets/img/value.jpg" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <br><br><br>
+    <!--our college values-->
+
+
+
+
+    <!--our students achievments-->
+    <section id="studentsachievements">
+        <div class="container">
+            <div class="row">
+                <h2 class="text-center display-4">Students Achievements</h2>
+                <div class="col-lg-6 col-sm-12 mt-4">
+                    <h2 class="display-4">Dr. Hamideh Alai-Towfigh</h2>
+                    <br><br>
+                    <p style="font-size: x-large;">Was The Runner-Up For Both The Canadian Academy Of Pediatric Dentistry’s 2020-21 Dr. Keith Titley Pediatric Dentistry Graduate Training Scholarship And The 3M Oral Care-CAPD/ACDP Graduate Student Research Presentation Awards.</p>
+                </div>
+                <div class="col-lg-6 col-sm-12 mt-4" style="align-content: center;">
+                    <img src="Assets/img/hamideh.jpg"  class="img-fluid">
+                </div>
+                <br><br>
+                <div class="col-lg-6 col-sm-12 mt-5" style="align-content: center;">
+                    <img src="Assets/img/matt.jpg" class="img-fluid">
+                </div>
+                <div class="col-lg-6 col-sm-12 mt-5">
+                    <h2 class="display-4">Dr. Matt Brown</h2>
+                    <br><br>
+                    <p style="font-size: x-large;">A Third-Year Orthodontist Resident, Was Selected As One Of Only 25 World-Wide Residents To Share His Master’s Research In The Dr. William Proffit Research Competition At The American Association Of Orthodontists Meeting In Miami In
+                        May.</p>
+                </div>
+                <br><br><br>
+                <div class="col-lg-6 col-sm-12 mt-5">
+                    <h2 class="display-4">Isabella Sarzynski's B.Sc. (Dent.)</h2>
+                    <br><br>
+                    <p style="font-size: x-large;">Project Was Accepted For The Student Poster Competition At The American Dental Education Association’s Meeting In Philadelphia In March. Her Paper On Survival Of Implants And Effects On Adjacent Teeth Has Great Potential For Being
+                        Published In The Journal Of Prosthetic Dentistry.</p>
+                </div>
+                <div class="col-lg-6 col-sm-12 mt-4" style="align-content: center;">
+                    <img src="Assets/img/issabella.jpg" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--our students achievments-->
+
+
+
+
+<!-- Footer -->
+<section style="background-image: linear-gradient(to bottom, white, #0fdfb8 ,#078f76);">
+    <footer class="footer mt-5 py-5">
+      <div class="container">
+          <div class="row">
+              <!-- Home -->
+              <div class="col-md-3 col-sm-6">
+                <h5>About Us</h5>
+                <ul class="list-unstyled">
+                  <li><a href="about.html">Mission and vision statements</a></li>
+                  <li><a href="about.html">Our Team</a></li>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <h5>Services</h5>
+                <ul class="list-unstyled">
+                    <li><a href="services.html">Routine check-ups</a></li>
+                    <li><a href="services.html">Urgent dental treatments</a></li>
+                </ul>
+              </div>
+
+              <!-- About US -->
+              <div class="col-md-3 col-sm-6">
+                <h5>Admissions</h5>
+                <ul class="list-unstyled">
+                    <li><a href="Professional-education.html">For Short Course</a></li>
+                    <li><a href="Professional-education.html">For DDS Or DMD</a></li>
+                </ul>
+              </div>
+
+              <!-- Blog -->
+              <div class="col-md-3 col-sm-6">
+                <h5>Contact Us</h5>
+                <ul class="list-unstyled">
+                    <li><a href="32smileshomepage.html">32Smiles.clinic.edu.com</a></li>
+                    <li>
+                      <a href="none"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" class="whatsapp" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                      <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+                    </svg></a>
+                    <a href="none" class="ms-1"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-youtube youtube" viewBox="0 0 16 16">
+                      <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+                    </svg></a>
+                    <a href="none" class="ms-1"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-twitter-x twitter" viewBox="0 0 16 16">
+                      <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+                    </svg></a>
+                    <a href="none" class="ms-1"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-instagram instagram" viewBox="0 0 16 16">
+                      <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                    </svg></a>
+                    <a href="none" class="ms-1"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-facebook facebook" viewBox="0 0 16 16">
+                      <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                    </svg></a>
+                    <a href="none" class="ms-1"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-telegram telegram" viewBox="0 0 16 16">
+                      <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.287 5.906q-1.168.486-4.666 2.01-.567.225-.595.442c-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294q.39.01.868-.32 3.269-2.206 3.374-2.23c.05-.012.12-.026.166.016s.042.12.037.141c-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8 8 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629q.14.092.27.187c.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.4 1.4 0 0 0-.013-.315.34.34 0 0 0-.114-.217.53.53 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09"/>
+                    </svg></a>
+                  </li>
+                </ul>
+              </div>
+          </div>
+      
+
+          <div class="row mt-4">
+              <div class="col text-center">
+                  <p>More Ways To Contact With Us: Find An 32 Smiles Or Other Dental Care Near You. Or Call +92-345-6789101.</p>
+                  <p>International Inc.</p>
+                  <p>Copyright &copy; 2024 | 32 Smiles Dental Clinic & College | All Rights Reserved. <a href="privacy.html" style="color: blue;">Privacy Policy</a><a href="legal.html" style="color: black;"> Legal </a></p>
+              </div>
+          </div>
+      </div>
+  </footer>
+  </section>
+
+
+
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+</body>
+
+</html>
